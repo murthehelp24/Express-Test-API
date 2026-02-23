@@ -1,0 +1,19 @@
+@BASE_URL = http://localhost:3000
+
+### Menus GET /menus
+GET {{BASE_URL}}/menus
+
+### Menus GET /menus/:id
+GET {{BASE_URL}}/menus/2
+
+### Menus POST /menus
+POST {{BASE_URL}}/menus
+Content-Type: application/json
+
+{
+  "name": "mama Yamyam",
+  "price": 30
+}
+
+
+
